@@ -3,6 +3,6 @@ class SecondAsExponentOfFirst:
         self.first_number=first_number
         self.second_number=second_number
     
-    def raise_to_the_second_number(self,first_number, second_number):
-        result = first_number**second_number
+    def raise_to_the_second_number(self):
+        result = self.first_number**self.second_number
         print("result:", result) #Print result

@@ -15,3 +15,7 @@ class QuotientWithoutDecimal:
         except ValueError:
             print("Invalid input. Please enter numbers only.")
             self.user_num()
+    
+    def calculate_quotient(self):
+        quotient = self.num_1 // self.num_2
+        print(f"The quotient of {self.num_1} and {self.num_2} is {quotient}")

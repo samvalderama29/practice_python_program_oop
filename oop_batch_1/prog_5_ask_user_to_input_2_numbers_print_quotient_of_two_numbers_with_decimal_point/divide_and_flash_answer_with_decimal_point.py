@@ -5,4 +5,4 @@ class QuotientWithDecimal:
     
     def divide(self): #Divide the two numbers
         result= self.first_number/self.second_number
-        print("quotient:", result)#Print their quotient(with decimal)
+        print("Quotient:", result)#Print their quotient(with decimal)

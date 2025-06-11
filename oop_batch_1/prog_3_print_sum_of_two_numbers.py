@@ -13,3 +13,7 @@ class SumOfTwoNumbers:
         except ValueError:
             print('Invalid input. Please enter numbers only.')
             self.user_num()
+            
+    def calculate_sum(self):
+        total = self.num_1 + self.num_2
+        print(f'The sum of {self.num_1} and {self.num_2} is {total}')

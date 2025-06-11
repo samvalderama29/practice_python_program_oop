@@ -12,3 +12,7 @@ class ProductOfTwoNumbers:
         except ValueError:
             print('Invalid input. Please enter numbers only.')
             self.user_num()
+    
+    def calculate_product(self):
+        product = self.num_1 * self.num_2
+        print(f'The product of {self.num_1} and {self.num_2} is {product}')

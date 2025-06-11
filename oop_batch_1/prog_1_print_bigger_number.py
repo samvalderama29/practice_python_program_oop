@@ -10,11 +10,11 @@ class BiggerNumber:
         self.num_2 = int(input('Enter another number: '))
     def bigger_num(self):
         if self.num_1 > self.num_2:
-            print(f"The bigger number is {self.num_1}")
+            print(f'The bigger number is {self.num_1}')
         elif self.num_1 < self.num_2:
-            print(f"The bigger number is {self.num_2}")
+            print(f'The bigger number is {self.num_2}')
         else:
-            print("Both numbers are equal.")
+            print('Both numbers are equal. It is not possible to determine which one is bigger.')
 
 print_big_num = BiggerNumber()
 print_big_num.user_num()

@@ -16,3 +16,7 @@ class DifferenceOfTwoNumbers:
     def calculate_difference(self):
         difference = self.num_1 - self.num_2
         print(f'The difference between {self.num_1} and {self.num_2} is {difference}')
+        
+difference_numbers = DifferenceOfTwoNumbers()
+difference_numbers.user_num()
+difference_numbers.calculate_difference()

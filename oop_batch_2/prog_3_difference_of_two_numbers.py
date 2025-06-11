@@ -12,3 +12,7 @@ class DifferenceOfTwoNumbers:
         except ValueError:
             print('Invalid input. Please enter numbers only.')
             self.user_num()
+    
+    def calculate_difference(self):
+        difference = self.num_1 - self.num_2
+        print(f'The difference between {self.num_1} and {self.num_2} is {difference}')

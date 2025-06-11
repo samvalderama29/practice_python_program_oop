@@ -19,3 +19,7 @@ class QuotientWithoutDecimal:
     def calculate_quotient(self):
         quotient = self.num_1 // self.num_2
         print(f"The quotient of {self.num_1} and {self.num_2} is {quotient}")
+        
+quotient_numbers = QuotientWithoutDecimal()
+quotient_numbers.user_num()
+quotient_numbers.calculate_quotient()

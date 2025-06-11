@@ -2,7 +2,7 @@
 
 # ask user to proceed
 # make a function that will print out the even numbers
-# print shit
+# print all the even numbers starting from 0 to 100
 
 class EvenNumbers:
     def even_sort():
@@ -10,5 +10,5 @@ class EvenNumbers:
             if i % 2 == 0:
                 print(i)
 
-even_shit = EvenNumbers
-even_shit.even_sort()
+even_allnum = EvenNumbers
+even_allnum.even_sort()

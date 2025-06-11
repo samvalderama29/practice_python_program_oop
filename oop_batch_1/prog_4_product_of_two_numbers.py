@@ -16,3 +16,7 @@ class ProductOfTwoNumbers:
     def calculate_product(self):
         product = self.num_1 * self.num_2
         print(f'The product of {self.num_1} and {self.num_2} is {product}')
+        
+product_numbers = ProductOfTwoNumbers()
+product_numbers.user_num()
+product_numbers.calculate_product()

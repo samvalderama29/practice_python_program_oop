@@ -6,3 +6,10 @@
 # Print the sum of the two numbers
 
 class SumOfTwoNumbers:
+    def user_num(self):
+        try:
+            self.num_1 = int(input('Enter the first number: '))
+            self.num_2 = int(input('Enter the second number: '))
+        except ValueError:
+            print('Invalid input. Please enter numbers only.')
+            self.user_num()

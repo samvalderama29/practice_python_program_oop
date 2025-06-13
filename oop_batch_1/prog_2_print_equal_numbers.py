@@ -12,6 +12,7 @@ class EqualNumber:
             self.num_2 = int(input('Enter another number: '))
         except ValueError:
             print('Invalid. Please enter numbers only')
+            self.user_num()
     def equal_num(self):
         if self.num_1 == self.num_2:
             print('Equal')
